@@ -31,7 +31,7 @@ header span{
 	width:3.2rem;
 	height:1.6rem;
 	margin-top:0.06rem;
-	
+
 }
 .box_a .top{
 	width:100%;
@@ -73,6 +73,7 @@ header span{
 	font-size:0.1rem;
 	color:#64646b;
 	text-align:left;
+	margin-top: -0.05rem;
 }
 .year{
 	width:0.13rem;
@@ -87,10 +88,10 @@ header span{
 	width:0.5rem;
 	height:0.12rem;
 	font-family:PingFangHK-Light;
-	font-size: 0.1rem;  
+	font-size: 0.1rem;
 	color:#64646b;
 	text-align:left;
-	margin-top:0.1rem;
+	margin-top:0.05rem;
 }
 .money{
 	width:0.5rem;
@@ -108,7 +109,7 @@ header span{
 	font-size:0.1rem;
 	color:#64646b;
 	text-align:left;
-	margin-top:0.1rem;
+	margin-top:0.05rem;
 }
 .middle,.right{
 	margin-top:0.16rem;
