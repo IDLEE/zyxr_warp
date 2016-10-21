@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+	<title>注册</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/common.css">
+	<script src="assets/js/module/lib/rem.js"></script>
+	<style type="text/css">	
+		body{
+			background:#ffffff;
+		}
+		section{
+			padding:0 .3rem;
+			width:100%;
+			box-sizing:border-box;
+			background:#fff;
+		}
+		section > input{
+			display:block;
+			border:0;
+			line-height:.66rem;
+			width:100%;
+			border-bottom:1px solid #d4d4d4;
+			font-size:.16rem;
+		}
+		section > input:nth-child(1){
+			margin:0;
+		}
+		.pic{
+			width:0.94rem;
+			height:0.34rem;
+			background:#d4d8dd;
+			position: absolute;
+			top:0.85rem;
+			left:1.9rem;
+			text-align: center;
+			line-height: 0.34rem;
+			color:#ffffff;
+		}
+		.getCode{
+			height:0.15rem;
+			padding-left:0.1rem;
+			font-family:HiraginoSansGB-W3;
+			font-size:0.12rem;
+			color:#fc291d;
+			text-align:center;
+			border-left:1px solid #dddddd;
+			position: absolute;
+			top:1.6rem;
+			left:2.14rem;
+		}
+		.tuijian{
+			font-family:HiraginoSansGB-W3;
+			font-size:0.12rem;
+			color:#c6c5cb;
+			text-align:left;
+			margin-top:0.15rem;
+		}
+		.register{
+			width: 100%;
+			border:0;
+			display: inline-block;
+			height:.42rem;
+			color:#fff;
+			font-size:.16rem;
+			background:#fc291d;
+			border-radius:4px;
+			margin-top:0.3rem;
+		}
+		.agree{
+			font-family:HiraginoSansGB-W3;
+			font-size:0.08rem;
+			color:#a6a6a6;
+			text-align:left;
+			margin-top:0.12rem;
+		}
+		.agree span{
+			font-family:HiraginoSansGB-W3;
+			font-size:0.10rem;
+			color:#4a4a4f;
+			text-align:right
+		}
+		footer{
+			margin-top: 2.7rem;
+			font-family:HiraginoSansGB-W3;
+			font-size:0.12rem;
+			color:#a6a6a6;
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="assets/image/back.png" alt="">
+		<span>注册账号</span>
+	</header>
+	<section>
+		<input type="text" placeholder="手机号" id="phone">
+		<input type="code" placeholder="图形验证码" id="">
+		<div class="pic">图形验证码</div>
+		<input type="number" placeholder="短信验证码" id="">
+		<div class="getCode">获取验证码</div>
+		<input type="password" placeholder="密码" id="">
+		<p class="tuijian">推荐人手机号(选填)</p>
+		<button class="register">立即注册</button>
+		<p class="agree">点击“立即注册”即表示同意<span>中业兴融用户协议</span></p>
+	</section>
+	<footer class="foot">已有账号，立即登录</footer>
+</body>
+</html>

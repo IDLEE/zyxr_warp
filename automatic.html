@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+	<title>提现</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/common.css">
+	<script src="assets/js/module/lib/rem.js"></script>
+	<style type="text/css">	
+		section{
+			width:100%;
+			height:0.8rem;
+			background:#ffffff;
+			margin-top: 0.1rem;
+			-webkit-box-sizing:border-box;
+			padding:0.2rem 0 0.2rem 0.2rem;
+			display: flex;
+		}
+		section img{
+			width:0.4rem;
+			height:0.4rem;
+			margin-right: 0.15rem;
+		}
+		.bank{
+			font-family:HiraginoSansGB-W3;
+			font-size:0.16rem;
+			color:#000000;
+			text-align:left;
+		}
+		.num{
+			font-family:HiraginoSansGB-W3;
+			font-size:0.12rem;
+			color:#64646b;
+			text-align:left;
+		}
+		.warn{
+			text-align: center;
+			margin-top: 0.18rem;
+		}
+		.bot{
+			width:100%;
+			height: 0.52rem;
+			background:#ffffff;
+			line-height: 0.52rem;
+			margin-top: 0.1rem;
+		}
+		.bot span{
+			font-family:HiraginoSansGB-W3;
+			font-size:0.14rem;
+			color:#000000;
+			text-align:left;
+			margin-left:0.2rem;
+		}
+		.bot input{
+			border:0;
+			font-size: 0.14rem;
+			margin-bottom: 0.05rem;
+			margin-left: 0.2rem;
+		}
+		button{
+			width:2.74rem;
+			border:0;
+			display:block;
+			margin:0 auto;
+			height:.42rem;
+			color:#fff;
+			font-size:.16rem;
+			background:#fc291d;
+			border-radius:4px;
+			margin-top:0.57rem;
+		}
+		.smallbox{
+			margin-top: 0.1rem;
+			width:100%;
+			height:1.04rem;
+			-webkit-box-sizing:border-box;
+			padding:0 0.2rem ;
+			background:#ffffff;
+		}
+		.smallbox p{
+			height:0.52rem;
+			line-height: 0.52rem;
+			display: flex;
+			-webkit-justify-content:space-between;
+		}
+		.smallbox > p:nth-child(1){
+			border-bottom: 1px solid #d2d2db;
+		}
+		.pay{
+			font-family:HiraginoSansGB-W3;
+			font-size:0.16rem;
+			color:#000000;
+			text-align:left;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="assets/image/back.png" alt="">
+		<span>提现</span>
+	</header>
+	<section>
+		<img src="assets/image/ticket_1.png">
+		<div>
+			<p class="bank">招商银行</p>
+			<p class="num">尾号<span>4392</span></p>
+		</div>
+	</section>
+	<p class="warn">账户可提现余额为5,000.00元</p>
+	<div class="bot">
+		<span>金额</span>
+		<input type="text" placeholder="请输入提现金额">
+	</div>
+	<p class="warn">提现1,000.00元以上免手续费，不足每笔收2.00元</p>
+	<div class="smallbox">
+		<p>
+			<span class="pay">手续费</span>
+			<span>2.00元</span>
+		</p>
+		<p>
+			<span class="pay">到账时间</span>
+			<span>2个工作日</span>
+		</p>
+	</div>
+	<button>确认提现</button>
+</body>
+</html>
